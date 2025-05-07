@@ -2,6 +2,8 @@ html, body{
     height: 100%;
     margin: 0;
     padding: 0;
+    font-family: 'SF Pro Display', sans-serif;
+                                                
 }
 body{
     background-color: #f2f4f7;
@@ -11,11 +13,75 @@ body{
     margin: 10px;
 }
 
-.formular{
+.formulario{
     margin: 10px;
+    background-color: #ffff;
+    padding-bottom: 24px;
+    padding-top: 10px;
+}
+
+input{
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    margin: 6px 0px;
+}
+
+.formulario .campos{
+    display: flex;
+    flex-direction: column;
 }
 
 .principal{
     display: flex;
     flex-wrap: nowrap;
+    padding-bottom: 112px;
+    padding-top: 72px;
+}
+
+.paises{
+    display: flex;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.paises li{
+    padding-right: 10px;
+}
+
+.utilitarios{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.utilitarios li{
+    padding-right: 20px;
+}
+
+.logo img{
+    height: 106px;
+}
+
+#btn-entrar{
+    font-size: 20px;
+    font-weight: bold; /*negrito*/
+    padding: 0px 16px;
+    border-radius: 6px;
+}
+
+.rodape{
+    background-color: #ffff;
+    padding-top: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo-rdp{
+    width: 980px;
 }
